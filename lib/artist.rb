@@ -19,8 +19,8 @@ def self.all
   @@all
 end
 #
-# def find_or_create_by_name
-# end
+def self.find_or_create_by_name(name)
+end
 
 # def print_songs
 # end
