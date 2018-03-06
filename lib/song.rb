@@ -8,7 +8,7 @@ class Song
   end
 
 def artist= (artist)
-  @artist = Song.new(self)
+  # @artist = Song.new(self)
 end
 
 def new_by_filename
