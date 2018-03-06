@@ -16,7 +16,7 @@ def save
 end
 
 def self.all
-  all
+  @@all
 end
 #
 # def find_or_create_by_name
