@@ -23,6 +23,7 @@ def self.find_or_create_by_name(name)
   self.all.detect {|artist| artist.name == name} ||  artist = Artist.new(name)
 end
 
-# def print_songs
-# end
+def print_songs
+    @songs.each {|song| puts song}
+end
 end
