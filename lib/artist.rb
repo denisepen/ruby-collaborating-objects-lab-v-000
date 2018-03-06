@@ -11,11 +11,9 @@ def add_song(song)
   @songs << song
 end
 
-
-
-# def save
-#   @@all << self.new
-# end
+def save
+  @@all << self.new
+end
 # 
 # def find_or_create_by_name
 # end
