@@ -11,7 +11,7 @@ def songs
 end
 
 def save
-  @@all << song
+  @@all << self
 end
 
 end
