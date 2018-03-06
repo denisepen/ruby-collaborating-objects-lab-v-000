@@ -12,7 +12,7 @@ def add_songs(song)
 end
 
 def songs
-  @songs << song
+
 end
 
 def save
